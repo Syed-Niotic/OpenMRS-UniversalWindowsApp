@@ -57,12 +57,10 @@ namespace OpenMRSWindowsApp
             Username = txtUsername.Text;
             Password = txtPassword.Password;
 
-            if (!(HostName.Equals(null)) && !(Username.Equals(null)) && !(Password.Equals(null)))
-            {
-                Debug.WriteLine("Identification worked");
+            
+
                 txtUsername.Text = "It actually Worked";
-            this.Frame.Navigate(typeof(MainMenuPage));
-            }
+
         }
     }
 }
