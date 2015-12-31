@@ -124,17 +124,29 @@ namespace OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "OpenMRSWindowsApp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "OpenMRSWindowsApp.MainMenuPage";
+            _typeNameTable[3] = "Object";
+            _typeNameTable[4] = "OpenMRSWindowsApp.MainMenuPage";
+            _typeNameTable[5] = "OpenMRSWindowsApp.Search";
+            _typeNameTable[6] = "OpenMRSWindowsApp.Common.NavigationHelper";
+            _typeNameTable[7] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[8] = "OpenMRSWindowsApp.Common.ObservableDictionary";
+            _typeNameTable[9] = "String";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::OpenMRSWindowsApp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::OpenMRSWindowsApp.MainMenuPage);
+            _typeTable[3] = typeof(global::System.Object);
+            _typeTable[4] = typeof(global::OpenMRSWindowsApp.MainMenuPage);
+            _typeTable[5] = typeof(global::OpenMRSWindowsApp.Search);
+            _typeTable[6] = typeof(global::OpenMRSWindowsApp.Common.NavigationHelper);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[8] = typeof(global::OpenMRSWindowsApp.Common.ObservableDictionary);
+            _typeTable[9] = typeof(global::System.String);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -170,7 +182,16 @@ namespace OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::OpenMRSWindowsApp.MainPage(); }
-        private object Activate_3_MainMenuPage() { return new global::OpenMRSWindowsApp.MainMenuPage(); }
+        private object Activate_4_MainMenuPage() { return new global::OpenMRSWindowsApp.MainMenuPage(); }
+        private object Activate_5_Search() { return new global::OpenMRSWindowsApp.Search(); }
+        private object Activate_8_ObservableDictionary() { return new global::OpenMRSWindowsApp.Common.ObservableDictionary(); }
+        private void MapAdd_8_ObservableDictionary(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
+            var newKey = (global::System.String)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -185,6 +206,7 @@ namespace OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo
             case 0:   //  OpenMRSWindowsApp.MainPage
                 userType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
+                userType.AddMemberName("NavigationService");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -197,22 +219,95 @@ namespace OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo
                 xamlType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  OpenMRSWindowsApp.MainMenuPage
+            case 3:   //  Object
+                xamlType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 4:   //  OpenMRSWindowsApp.MainMenuPage
                 userType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainMenuPage;
+                userType.Activator = Activate_4_MainMenuPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
+                break;
+
+            case 5:   //  OpenMRSWindowsApp.Search
+                userType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_Search;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  OpenMRSWindowsApp.Common.NavigationHelper
+                userType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  OpenMRSWindowsApp.Common.ObservableDictionary
+                userType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.DictionaryAdd = MapAdd_8_ObservableDictionary;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  String
+                xamlType = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
         }
 
 
+        private object get_0_MainPage_NavigationService(object instance)
+        {
+            var that = (global::OpenMRSWindowsApp.MainPage)instance;
+            return that.NavigationService;
+        }
+        private object get_1_Search_NavigationHelper(object instance)
+        {
+            var that = (global::OpenMRSWindowsApp.Search)instance;
+            return that.NavigationHelper;
+        }
+        private object get_2_Search_DefaultViewModel(object instance)
+        {
+            var that = (global::OpenMRSWindowsApp.Search)instance;
+            return that.DefaultViewModel;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "OpenMRSWindowsApp.MainPage.NavigationService":
+                userType = (global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpenMRSWindowsApp.MainPage");
+                xamlMember = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlMember(this, "NavigationService", "Object");
+                xamlMember.Getter = get_0_MainPage_NavigationService;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OpenMRSWindowsApp.Search.NavigationHelper":
+                userType = (global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpenMRSWindowsApp.Search");
+                xamlMember = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "OpenMRSWindowsApp.Common.NavigationHelper");
+                xamlMember.Getter = get_1_Search_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OpenMRSWindowsApp.Search.DefaultViewModel":
+                userType = (global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OpenMRSWindowsApp.Search");
+                xamlMember = new global::OpenMRSWindowsApp.OpenMRSWindowsApp_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "OpenMRSWindowsApp.Common.ObservableDictionary");
+                xamlMember.Getter = get_2_Search_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            }
             return xamlMember;
         }
     }

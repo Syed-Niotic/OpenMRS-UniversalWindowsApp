@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenMRSWindowsApp.Common;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -27,13 +28,31 @@ namespace OpenMRSWindowsApp
             this.InitializeComponent();
         }
 
+
+
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
         /// </summary>
         /// <param name="e">Event data that describes how this page was reached.
         /// This parameter is typically used to configure the page.</param>
+
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+     
+
+
+
+
+        }
+        private void navigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        {  
+          txtHeader.Text = "Welcome back, " + (string)e.NavigationParameter;  
+        }
+
+
+    private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Search));
         }
     }
 }

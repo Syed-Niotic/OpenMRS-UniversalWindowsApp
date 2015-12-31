@@ -111,7 +111,7 @@ namespace OpenMRSWindowsApp
 
         private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-            LoginPage.Page 
+            
 
         }
     }

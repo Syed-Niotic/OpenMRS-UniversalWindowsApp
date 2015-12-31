@@ -59,17 +59,17 @@ namespace OpenMRSWindowsApp
 
             string LoginURL = HostName.Trim() + "/ws/rest/v1/session/";
 
-            try
-            {
-                using (HttpClient client = new HttpClient())
-                {
-                    var post = client.PostAsync(LoginURL, Username Password);
+            //try
+            //{
+            //    using (HttpClient client = new HttpClient())
+            //    {
+            //        var post = client.PostAsync(LoginURL, Username Password);
 
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(OMRSapi));
-                    OMRSapi reponse = (OMRSapi)serializer.ReadObject(post);
-                }
-            }
-            catch (Exception ex) { }
+            //        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(OMRSapi));
+            //        OMRSapi reponse = (OMRSapi)serializer.ReadObject(post);
+            //    }
+            //}
+            //catch (Exception ex) { }
                 
                 txtUsername.Text = "It actually Worked";
         }

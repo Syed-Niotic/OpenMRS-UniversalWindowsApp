@@ -20,10 +20,16 @@
 
 
     <Grid Background="White">
-        
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <TextBlock x:Name="txtHeader" Margin="40,20,0,0" Style="{ThemeResource HeaderTextBlockStyle}" 
+                    VerticalAlignment="Top" Height="58" FontSize="46.667" Foreground="#FF5B57A6"/>
 
-        <Button  HorizontalAlignment="Left" Margin="100,0,80,0">
-            <Image Source="Assets/Main Menu/search.jpg"/>
+        <Button x:ConnectionId='1'  HorizontalAlignment="Left" Margin="100,0,80,0"                     >
+            <Image Source="Assets/Main Menu/search.jpg" />
         </Button>
         <Button HorizontalAlignment="Center">
             <Image Source="Assets/Main Menu/Vitals.jpg"/>

@@ -67,6 +67,9 @@
     <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\MainMenuPage.xbf">
       <PackagePath>MainMenuPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\Search.xbf">
+      <PackagePath>Search.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>

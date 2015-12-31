@@ -16,10 +16,6 @@
             <RowDefinition Height="*" x:Name="Bottom"/>
         </Grid.RowDefinitions>
 
-
-        <TextBox Grid.Row="0" x:Name="txtHostName" PlaceholderText="Enter Host" Height="45" 
-                   Background="White" FontSize="16" TextAlignment="Center" Margin="10,10,10,0" BorderBrush="#FF009384"/>
-
         <Image x:Name="ImgOpenMRS" Grid.Row="0" Source="Assets/Images/OpenMRS-logo.png"
                HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20,0,20,90" Width="352"
                Stretch="Uniform"/>
@@ -32,16 +28,19 @@
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="1">
-                <TextBox x:Name="txtUsername" VerticalAlignment="Top"
-                         Height="45" BorderBrush="#FF009384" PlaceholderText="USERNAME" Margin="0,20,0,10"/>
+                <TextBox x:Name="txtUsername" VerticalAlignment="Top" FontSize="24"
+                         Height="45" BorderBrush="#FF009384" PlaceholderText="USERNAME" Margin="0,55,0,10"/>
+                <PasswordBox x:Name="txtPassword" BorderBrush="#FF009384" VerticalAlignment="Center" Margin="0,0,0,50"
+            	        Height="45" PlaceholderText="PASSWORD" FontSize="20"/>
 
-                <PasswordBox x:Name="txtPassword" BorderBrush="#FF009384" VerticalAlignment="Top" Margin="0,75,0,10"
-            	        Height="45" PlaceholderText="PASSWORD"/>
 
                 <Button x:Name="btnLogin" 
             	        Background="#FF009384"
                         HorizontalAlignment="Center"
-            	        Content="LOGIN" Click="Button_Click" Margin="0,15,0,40" VerticalAlignment="Center"/>
+            	        Content="LOGIN" Click="Button_Click" Margin="0,15,0,50" VerticalAlignment="Bottom"/>
+                
+                <TextBox Grid.Row="0" x:Name="txtHostName" PlaceholderText="HOST" Height="45" VerticalAlignment="Top"
+                	Background="White" FontSize="24" TextAlignment="Center" BorderBrush="#FF009384"/>
             </Grid>
         </Grid>
     </Grid>

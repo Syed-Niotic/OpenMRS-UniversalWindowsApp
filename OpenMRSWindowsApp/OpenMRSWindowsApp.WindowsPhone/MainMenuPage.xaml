@@ -27,6 +27,9 @@
             </TransitionCollection>
         </Grid.ChildrenTransitions>
 
+        <TextBlock x:Name="txtHeader" HorizontalAlignment="Center" Margin="0,28,0,0" Style="{ThemeResource HeaderTextBlockStyle}" 
+                   Text="Welcome User!" VerticalAlignment="Top" Height="58" Width="380" FontSize="46.667" Foreground="#FF5B57A6"/>
+
         <Button Margin="37,398,0,100" >
             <Image Source="Assets/Main Menu/search.jpg"/>
         </Button>
