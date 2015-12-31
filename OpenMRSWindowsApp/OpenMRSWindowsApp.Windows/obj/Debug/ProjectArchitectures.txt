@@ -1,1 +1,1 @@
-c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\OpenMRSWindowsApp.Windows.csproj;neutral
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\OpenMRSWindowsApp.Windows.csproj;neutral

@@ -1,5 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\შყედ ჰმედ\documents\visual studio 2015\projects\openmrswindowsapp\openmrswindowsapp\openmrswindowsapp.windows\obj\debug\intermediatexaml\openmrswindowsapp.windows.exe" HashGuid="060ec746-6d6a-73ed-e138-4f664949e903" />
+    <LocalAssembly PathName="c:\users\შყედ ჰმედ\documents\visual studio 2015\projects\openmrswindowsapp\openmrswindowsapp\openmrswindowsapp.windows\obj\debug\intermediatexaml\openmrswindowsapp.windows.exe" HashGuid="ff321d08-7bfe-6a31-1afb-c7557b9a5a29" />
+    <ReferenceAssembly PathName="c:\users\შყედ ჰმედ\documents\visual studio 2015\projects\openmrswindowsapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\შყედ ჰმედ\documents\visual studio 2015\projects\openmrswindowsapp\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

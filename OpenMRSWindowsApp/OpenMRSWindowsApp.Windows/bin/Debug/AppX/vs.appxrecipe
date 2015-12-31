@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>d3bda9b6-7ae5-43a9-85e7-91627e1719ac</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>E54C2864305D7904AA382C89BBD35A3A034B3E1AC07E9372939B5AE17A3181D5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d3bda9b6-7ae5-43a9-85e7-91627e1719ac_1.0.0.0_neutral__134rfqxb238t8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d3bda9b6-7ae5-43a9-85e7-91627e1719ac_134rfqxb238t8!App</RegisteredUserModeAppID>
@@ -19,60 +19,80 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-29T20:38:12.220</Modified>
+      <Modified>2015-12-31T06:09:30.410</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\OpenMRSWindowsApp.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\OpenMRSWindowsApp.Windows.exe">
       <PackagePath>OpenMRSWindowsApp.Windows.exe</PackagePath>
-      <Modified>2015-12-29T20:45:15.065</Modified>
+      <Modified>2015-12-31T06:11:58.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Images\OpenMRS-logo.png">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-12-31T04:01:47.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\packages\Microsoft.Net.Http.2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-12-31T04:01:47.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Images\OpenMRS-logo.png">
       <PackagePath>Assets\Images\OpenMRS-logo.png</PackagePath>
       <Modified>2015-12-29T17:16:33.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-07T03:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-07T03:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-07T03:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-07T03:01:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\OpenMRSWindowsApp.Windows.xr.xml">
-      <PackagePath>OpenMRSWindowsApp.Windows.xr.xml</PackagePath>
-      <Modified>2015-12-29T20:38:11.075</Modified>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Main Menu\ActiveVisits.jpg">
+      <PackagePath>Assets\Main Menu\ActiveVisits.jpg</PackagePath>
+      <Modified>2015-12-31T06:03:04.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Main Menu\search.jpg">
+      <PackagePath>Assets\Main Menu\search.jpg</PackagePath>
+      <Modified>2015-12-31T06:03:04.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\Assets\Main Menu\Vitals.jpg">
+      <PackagePath>Assets\Main Menu\Vitals.jpg</PackagePath>
+      <Modified>2015-12-31T06:03:04.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\OpenMRSWindowsApp.Windows.xr.xml">
+      <PackagePath>OpenMRSWindowsApp.Windows.xr.xml</PackagePath>
+      <Modified>2015-12-31T06:09:29.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2015-12-29T17:00:30.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\LoginPage.xbf">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
       <Modified>2015-12-29T20:21:17.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\MainMenuPage.xbf">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\MainMenuPage.xbf">
       <PackagePath>MainMenuPage.xbf</PackagePath>
-      <Modified>2015-12-29T20:38:11.127</Modified>
+      <Modified>2015-12-31T06:11:57.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-29T20:38:12.065</Modified>
+      <Modified>2015-12-31T06:09:29.844</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

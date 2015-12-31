@@ -57,7 +57,7 @@ namespace OpenMRSWindowsApp
             Password = txtPassword.Password;
 
                 txtUsername.Text = Password;
-               // this.Frame.Navigate(typeof(MainMenuPage));
+               this.Frame.Navigate(typeof(MainMenuPage));
 
         }
     }

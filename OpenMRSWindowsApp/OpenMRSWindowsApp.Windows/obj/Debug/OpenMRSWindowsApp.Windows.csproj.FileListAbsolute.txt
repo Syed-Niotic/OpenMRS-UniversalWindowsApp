@@ -35,3 +35,9 @@ c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRS
 c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\obj\Debug\MainMenuPage.xaml
 c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\obj\Debug\MainMenuPage.xbf
 c:\users\შყედ ჰმედ\documents\visual studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\MainMenuPage.xbf
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\obj\Debug\OpenMRSWindowsApp.Windows.csprojResolveAssemblyReference.cache
+C:\Users\შყედ ჰმედ\Documents\Visual Studio 2015\Projects\OpenMRSWindowsApp\OpenMRSWindowsApp\OpenMRSWindowsApp.Windows\obj\Debug\OpenMRSWindowsApp.Windows.csproj.GenerateResource.Cache

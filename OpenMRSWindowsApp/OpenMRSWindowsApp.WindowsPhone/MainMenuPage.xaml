@@ -8,11 +8,34 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="White">
-        <Button />
-        <Button />
-        <Button Margin="34,68,0,433" Height="139" Width="151" />
-        
+    <Page.Resources>
 
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="150"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+
+
+    </Page.Resources>
+
+
+    <Grid Background="White">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Button Margin="37,398,0,100" >
+            <Image Source="Assets/Main Menu/search.jpg"/>
+        </Button>
+        <Button Margin="37,98,0,392" >
+            <Image Source="Assets/Main Menu/Vitals.jpg"/>
+        </Button>
+        <Button Margin="36,0,0,0" Height="139" Width="151"
+            VerticalAlignment="Center">
+            <Image Source="Assets/Main Menu/ActiveVisits.jpg"/>
+        </Button>
     </Grid>
 </Page>
